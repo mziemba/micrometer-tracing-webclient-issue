@@ -8,4 +8,4 @@ logging:
     demo: DEBUG
     ROOT: INFO
   pattern:
-    console: "[%clr(%4p)] [%clr(%d{ISO8601}){blue}] [demo-service,%X{traceId:-},%X{spanId:-},%X{client_id:-}] [%clr(%t){magenta}] %clr(%c{1}){cyan}: %m%n"
+    console: "[%clr(%4p)] [%clr(%d{ISO8601}){blue}] [demo-service,%X{traceId:-},%X{spanId:-},%X{client_id:-},%X{session_id:-}] [%clr(%t){magenta}] %clr(%c{1}){cyan}: %m%n"
